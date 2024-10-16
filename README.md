@@ -67,4 +67,56 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)  
+
+
+
+
+Hii Nxtwave and Matrix Lab company 
+My self Prashanth Kumar Reddy 
+
+This is all about my assigmnet frontend part it is responsive for both Laptop or PC and mobile phones 
+
+1. This is started through react.js project in vsCode with starting commands like
+2. npx create-reacta-app matrix-frontend
+3. cd matrix-frontend
+4. npm start
+5. then to install all dependences "npm install"
+6. after the created 2 componets and started my project
+7. About Us Page UI with Advanced Shadows
+This project is a responsive "About Us" section built using HTML and CSS, React.js and some other third-party packages and all with an emphasis on advanced UI techniques like applying inner and outer shadows to containers. The goal is to create a visually appealing section with both inside and outside shadows on the content card, providing depth and a modern look.
+8 it is about trade and investment website with user static website bcsslp
+9 It is build through figma layout designing as it as
+10 it is only frontend part of assignmnet with all
+   1.Trade Optimizer
+   2.  Market Insight
+   3. Risk Guard
+   4. Portfolio Sync
+   5. Opportunity Scout etc
+
+11. coponents are
+12. Header page 
+13. index.js
+14. index.css
+15. Home page 
+16. index.js
+17. index.css
+
+18. with more hunred'd number of lines of code
+
+19. Thank You Nxtwave and Mtrix Lab company for providing this opporetunity to explore my skills
+
+20. Prashanth Kumar Reddy 
+
+
+
+
+
+
+
+
+
+
+
+
+
