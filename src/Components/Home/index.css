@@ -1,0 +1,553 @@
+.bg-container{
+    /*background-color: #0B2A2B;*/
+    background-image: url("https://res.cloudinary.com/dlsuy2qn2/image/upload/v1729057163/image_4_e64rtd.png");
+    height: 100vh;
+    background-size: cover;
+} 
+.home-page-content{
+    color: #ffffff; 
+    font-family: "Roboto"; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 300px; 
+}  
+.sp{
+    background-color:"";
+}
+.main-heading{
+    color: #ffffff;
+    font-weight: 500; 
+    font-size: 70px;
+    text-align: center;
+    margin: 0px;
+} 
+.span{
+    background-color: #B0F9FF;
+    border-radius: 25px;
+    width: 419px;
+    height: 90px; 
+    color: #0B2A2B;
+} 
+.descrption{
+    color: #B0FAFFB2;
+    text-align: center;
+} 
+.open-button{
+    background: #00161D;
+    color: #ffffff;
+    height: 50px;
+    width: 100px;
+    font-size: 15px; 
+    border: solid 1px; 
+    border-radius: 9px; 
+}
+
+/* container - 1 */
+
+.trade-info-container{
+    background: #00161D;
+    height: 700vh;
+}  
+  
+.trade-row {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%; 
+    justify-content: center;
+    padding: 20px;
+}
+  
+.trade-optimizer {
+    background-color: #0f373c; 
+    color: #ffffff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 300px;
+    height: 400px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 60px;
+}
+  
+.market-insight {
+    margin: 5px;
+    background-color: #0f373c;
+    color: #ffffff; 
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+} 
+.risk-guard{
+    margin-left: 20px;
+    background-color: #0f373c;
+    color: #ffffff; 
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    height: 400px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 60px;
+}  
+
+.portfolio-sync{
+    background-color: #0f373c; 
+    color: #ffffff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 400px;
+    height: 150px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column; 
+    border-bottom-left-radius: 60px;
+} 
+.opportunity-scout{
+    margin-left: 20px;
+    background-color: #0f373c;
+    color: #ffffff; 
+    border-radius: 10px;
+    width: 850px;
+    padding: 20px;
+    height: 150px;
+    margin: 5px; 
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between; 
+    border-bottom-right-radius: 60px;
+}
+.trade-image{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.risk-image{
+    margin-top: 30px;
+}
+.heading{
+    font-size: 15px;
+    font-family: "Roboto";
+} 
+.scout-image{
+    width: 100px;
+}
+.about-trade{
+    color: #b0faff; 
+    font-family: "Roboto";
+}
+@media (max-width: 768px) { 
+    .bg-container{
+        background-image: none;
+        background-color: #00161D;
+        height: 1110vh;
+    }
+    .trade-optimizer {
+        width: 250px; 
+        border-radius: 5px; 
+        height: 300px;
+        text-align: center;
+    } 
+    .market-insight{
+        width: 250px;
+        height: 200px;
+    }
+    .trade-image{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    } 
+    .risk-guard{
+        border-radius: 5px;
+        height: 300px;
+        width: 250px;
+    }
+    .risk-image{
+        margin-top: 0px;
+    } 
+    .portfolio-sync{
+        border-radius: 5px;
+        text-align: center;
+        height: 150px;
+        width: 250px;
+    } 
+    .opportunity-scout{
+        border-radius: 5px;
+        width: 250px;
+        height: 230px;
+    }
+    .trade-info-container{
+        background: #00161D;
+        /*height: 950vh;*/
+    }
+} 
+
+.about-ethai-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 50px;
+} 
+.ethai-heading{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Bree-serif;
+} 
+.read-more-btn{
+    height: 50px;
+    width: 120px;
+    background: #CDFCFF;
+    border-radius: 12px;
+    font-size: 15px;
+} 
+.ethai-card{
+    background: #08252A;
+    width: 744px;
+    height: 400px;
+    left: 348px;
+    padding: 20px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    margin: 15px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+.ethai-content{
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    margin: 25px;
+}
+.ethai-image{
+    width: 50px;
+    height: 50px;
+} 
+.image-name{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 17px;
+} 
+.image-info{
+    margin: 0px;
+    font-size: 13px;
+    color: #B0FAFFB2;
+
+} 
+
+@media (max-width: 768px) {
+    .ethai-card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 800px;
+    }
+} 
+.tokenomics-container{
+    color: #ffffff;
+} 
+.tokenomics-heading{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Bree-serif;
+    text-align: center;
+    margin-top: 50px;
+} 
+.tokenomics-details-container{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 30px;
+}
+.tokenomic-chart{
+    margin: 20px;
+    width: 500px;
+}
+.pie-chart{
+    width: 500px;
+} 
+.chart-details{
+    display: flex;
+    flex-direction: column;
+}
+.chart-info-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    background-color: #0C2B2FB2;
+    border: solid 2px #0C2B2FB2;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 35px;
+    height: 250px;
+    border-radius: 5px;
+} 
+.chart-info-2{
+    border: solid 2px #0C2B2FB2;
+    width: 500px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.chart-list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+} 
+.list-5{
+    margin: 9px;
+} 
+@media (max-width: 768px) {
+    .tokenomics-details-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .tokenomic-chart{
+        width: 200px;
+    }
+    .pie-chart{
+        width: 300px;
+    }
+    .chart-info-1{
+        width: 200px;
+    } 
+    .chart-info-2{
+        width: 200px;
+    }
+} 
+.roadmap-container{
+    color: #ffffff;
+    margin-top: 80px;
+} 
+.roadmap-heading{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Bree-serif;
+    text-align: center;
+    margin-top: 50px;
+} 
+.roadmap-info-1{
+    font-family: "Roboto";
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+} 
+.phase-1-info{
+    font-family: "Roboto";
+    margin-left: 15%;
+} 
+.phase-1{
+    background-color: #F7F7F7;
+    color: #333333;
+    width: 90px;
+    height: 30px;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: inset 0 4px 8px #333333;
+} 
+.phase-name-1{
+    font-family: var(--fontfamilyFont1);
+    font-weight: 500;
+    font-size: 25px;
+} 
+.captions{
+    display: flex;
+    align-items: center;
+} 
+.tick-1{
+    border: 1.25px solid #A3F0FE;
+    color: #A3F0FE;
+    border-radius: 20px;
+    margin-right: 15px;
+} 
+.tick-info{
+    font-size: 15px;
+    font-family: "Open Sans";
+}
+.phase-image{
+    width: 650px;
+    height: 450px;
+} 
+.roadmap-info-2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.phase-2-info{
+    font-family: "Roboto";
+    margin-right: 15%;
+} 
+.roadmap-info-3{
+    font-family: "Roboto";
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+} 
+.phase-3-info{
+    font-family: "Roboto";
+    margin-left: 15%;
+} 
+@media (max-width: 768px) {
+    .roadmap-info-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phase-image{
+        height: 300px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .roadmap-info-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .phase-1{
+        width: 70px;
+        font-size: 12px;
+    }
+    .phase-name-1{
+        font-size: 17px;
+    }
+    .tick-info{
+        font-size: 10px;
+    }
+    .roadmap-info-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+} 
+.questions-container{
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-evenly;
+}
+.question-heading{
+    color: #ffffff;
+    font-size: 29px;
+    margin: 15px;
+} 
+.question-list{
+    display: flex;
+    flex-direction: column;
+}
+.tick-2{
+    color: #A3F0FE;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+@media (max-width: 768px) {
+    .questions-container{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .question-heading{
+        font-size: 20px;
+    }
+}
+.aboutus-container{
+    background-color: #011C24;
+    width: 900px;
+    align-self: center;
+    margin-top: 70px;
+    border: solid 2px #00C2DB80;
+    border-radius: 9px;
+    /*box-shadow: inset 0 4px 8px #00C2DB80;*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 
+    inset 0 4px 8px #00C2DB80;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.aboutus-heading{
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.span-2{
+    color: #62F0FE;
+    /*background: #62F0FE;*/
+}
+.aboutus-info{
+    color: #62F0FE;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+} 
+@media (max-width: 768px) {
+    .aboutus-container{
+        width: 300px;
+        height: 300px;
+    }
+}
+.last-footer-section{
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.social-media-section{
+    padding: 20px;
+}
+.social-app{
+    font-size: 30px;
+    margin-right: 17px;
+}
+.about-website{
+    font-family: "Roboto";
+    padding: 20px;
+}
+.input{
+    background-color: transparent;
+    border: solid 1px #EFEFE8;
+    /*background: #EFEFE8;*/
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+.web-logo-container {
+    display: flex;
+    align-items: center;
+}
+.web-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.web-logo-name {
+    color: #ffffff;
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .about-website{
+        display: none;
+    }
+
+}

@@ -1,0 +1,106 @@
+/* Laptop and PC Styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    padding-top: 15px;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-name {
+    color: #ffffff;
+    font-family: Play;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 15px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: #0C2B2FB2;
+    border-top: 1px solid #0F373C;
+    width: 553px;
+    border-radius: 25px;
+    height: 60px;
+}
+
+.nav-list {
+    display: flex;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.list-1, .list-2, .list-3, .list-4 {
+    margin: 9px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    color: #ffffff;
+    background-color: transparent;
+    border-width: 0px;
+    margin: 15px;
+}
+
+.background-btn {
+    height: 50px;
+    width: 120px;
+    background: #CDFCFF;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.link-container {
+    display: none; 
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .nav-container, 
+    .login-container, 
+    .logo-name {
+        display: none; /* Hide these on mobile */
+    }
+
+    .header-container {
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo-container {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .link-container {
+        display: flex; 
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .link-icon {
+        width: 40px;
+        height: 40px; 
+        margin-right: 19px;
+    }
+}
